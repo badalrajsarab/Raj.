@@ -51,6 +51,7 @@
         });
 
         function signUpUser(username, password, phone) {
+            alert("Sign up")
             const users = JSON.parse(localStorage.getItem('users')) || [];
 
             if (phone.length === 10 && !isNaN(phone)) {
@@ -70,6 +71,7 @@
 
             if (username && password && phone) {
                 signUpUser(username, password, phone);
+                alert("sign up kiit.html")
                 window.location.href = "Server/kiti.html";
 
             }
