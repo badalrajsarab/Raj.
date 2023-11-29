@@ -44,14 +44,16 @@
             const user = users.find(u => u.username === username && u.password === password);
 
             if (user) {
-                window.location.href = "Server/kiti.html";
+var targetURL = "/Server/kiti.html";
+
+window.location.href = targetURL;
             } else {
                 alert("Login failed. Please sign up.");
             }
         });
 
         function signUpUser(username, password, phone) {
-            alert("Sign up")
+        
             const users = JSON.parse(localStorage.getItem('users')) || [];
 
             if (phone.length === 10 && !isNaN(phone)) {
@@ -71,9 +73,9 @@
 
             if (username && password && phone) {
                 signUpUser(username, password, phone);
-                alert("sign up kiit.html")
-                window.location.href = "Server/kiti.html";
+var targetURL = "/Server/kiti.html";
 
+window.location.href = targetURL;
             }
         });
     </script>
