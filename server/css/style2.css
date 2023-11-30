@@ -240,7 +240,7 @@ img#dynamicPhoto {
 #joinUs {
   display: none;
   background: linear-gradient(#005766bd, #000);
-  padding: 20px;
+  padding: 33px;
   border-radius: 0px;
   box-shadow: 0 0 10px rgba(101, 25, 25, 0.1);
   margin: -40px -2px;
@@ -301,7 +301,7 @@ img#dynamicPhoto {
 @media only screen and (min-width: 768px) {
   #gallery {
     background-size: cover;
-    padding: 127px;
+    padding: 140px;
   }
 
 }
@@ -317,7 +317,7 @@ img {
 #joinUs {
   display: none;
   background: linear-gradient(#22b07bba, #000);
-  padding: 20px;
+  padding: 33px;
   border-radius: 0px;
   box-shadow: 0 0 10px rgba(101, 25, 25, 0.1);
   margin: -40px -2px;
@@ -332,7 +332,7 @@ img {
 
 #video {
   background: linear-gradient(#7800a4b0, #000);
-  padding: 130px 35px;
+  padding: 149px 35px;
   margin: -40px -2px;
 }
 
